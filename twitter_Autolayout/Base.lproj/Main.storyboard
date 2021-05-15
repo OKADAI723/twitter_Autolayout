@@ -16,29 +16,49 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C02-Ke-UhN">
-                                <rect key="frame" x="0.0" y="120" width="414" height="200"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="fFU-c0-Ady"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="OZR-87-dCB" kind="show" id="2nv-KR-guU"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="76" translatesAutoresizingMaskIntoConstraints="NO" id="yNI-9u-SDE">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C02-Ke-UhN">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="371"/>
+                                        <state key="normal" title="Sample02"/>
+                                        <connections>
+                                            <segue destination="OZR-87-dCB" kind="show" id="2nv-KR-guU"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YdO-f5-Zlh">
+                                        <rect key="frame" x="0.0" y="447" width="414" height="371"/>
+                                        <state key="normal" title="Sample01"/>
+                                        <connections>
+                                            <segue destination="2mC-CT-OGR" kind="show" id="iVO-Ef-jU6"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="C02-Ke-UhN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="JkD-PY-vZJ"/>
-                            <constraint firstItem="C02-Ke-UhN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="76" id="QsB-Yb-bDt"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="C02-Ke-UhN" secondAttribute="trailing" id="sxu-Ae-sau"/>
+                            <constraint firstItem="yNI-9u-SDE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="1S9-UI-PaM"/>
+                            <constraint firstItem="yNI-9u-SDE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="IUo-ZO-d8G"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yNI-9u-SDE" secondAttribute="bottom" id="Ia5-yA-8pe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yNI-9u-SDE" secondAttribute="trailing" id="tjE-Ev-W5R"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="20" y="79"/>
+        </scene>
+        <!--Sample01-->
+        <scene sceneID="K9W-D9-0Wb">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Sample01" id="2mC-CT-OGR" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Dhw-sO-PyU"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vT5-dN-GkI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="520" y="181"/>
         </scene>
         <!--Sample02-->
         <scene sceneID="GuQ-qx-kT1">
