@@ -13,6 +13,8 @@
 		DEBEB168264E977C00D84A1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEBEB166264E977C00D84A1B /* Main.storyboard */; };
 		DEBEB16A264E977E00D84A1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEBEB169264E977E00D84A1B /* Assets.xcassets */; };
 		DEBEB16D264E977E00D84A1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEBEB16B264E977E00D84A1B /* LaunchScreen.storyboard */; };
+		DEBEB175264E97CE00D84A1B /* Sample01.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEBEB174264E97CE00D84A1B /* Sample01.storyboard */; };
+		DEBEB179264EBBB700D84A1B /* Sample02.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEBEB178264EBBB700D84A1B /* Sample02.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DEBEB169264E977E00D84A1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEBEB16C264E977E00D84A1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEBEB16E264E977E00D84A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEBEB174264E97CE00D84A1B /* Sample01.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Sample01.storyboard; sourceTree = "<group>"; };
+		DEBEB178264EBBB700D84A1B /* Sample02.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Sample02.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				DEBEB162264E977C00D84A1B /* SceneDelegate.swift */,
 				DEBEB164264E977C00D84A1B /* ViewController.swift */,
 				DEBEB166264E977C00D84A1B /* Main.storyboard */,
+				DEBEB174264E97CE00D84A1B /* Sample01.storyboard */,
+				DEBEB178264EBBB700D84A1B /* Sample02.storyboard */,
 				DEBEB169264E977E00D84A1B /* Assets.xcassets */,
 				DEBEB16B264E977E00D84A1B /* LaunchScreen.storyboard */,
 				DEBEB16E264E977E00D84A1B /* Info.plist */,
@@ -125,6 +131,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEBEB16D264E977E00D84A1B /* LaunchScreen.storyboard in Resources */,
+				DEBEB179264EBBB700D84A1B /* Sample02.storyboard in Resources */,
+				DEBEB175264E97CE00D84A1B /* Sample01.storyboard in Resources */,
 				DEBEB16A264E977E00D84A1B /* Assets.xcassets in Resources */,
 				DEBEB168264E977C00D84A1B /* Main.storyboard in Resources */,
 			);
